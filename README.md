@@ -23,21 +23,20 @@ git clone https://github.com/Learn-by-doing/basic-browser-extension.git
 
 ## Load the Extension in Chrome
 
-From the Chrome extensions [getting started guide](https://developer.chrome.com/extensions/getstarted):
+* Open the `chrome://extensions` page in your browser. You should see a list of all the extensions that you have installed.
+* Click the "Load unpacked extension..." button in the top left corner.
+* Select the `basic-browser-extension` directory.
 
-> Extensions that you download from the Chrome Web Store are packaged up as `.crx` files, which is great for distribution, but not so great for development. Recognizing this, Chrome gives you a quick way of loading up your working directory for testing. Let's do that now.
-> 
-> Visit [chrome://extensions](chrome://extensions) in your browser (or open up the Chrome menu by clicking the icon to the far right of the Omnibox:  The menu's icon is three horizontal bars. and select Extensions under the Tools menu to get to the same place).
-> 
-> [Make sure] that the Developer mode checkbox in the top right-hand corner is checked.
-> 
-> Click "Load unpacked extension..." to pop up a file-selection dialog.
-> 
-> Navigate to the directory in which your extension files live, and select it.
-> 
-> If the extension is valid, [it will] be loaded up and active right away! If [it is] invalid, an error message will be displayed at the top of the page. Correct the error, and try again.
+If the extension is valid, it will be loaded up and active immediately. If it is invalid, an error message will be shown at the top of the page. If that happens, fix the error and click "Retry".
+
 
 
 ## Make a Change
 
-Open the project folder in your preferred text editor and make some changes to the extension. When you're ready to try out your changes, re-load the extension from the [chrome://extensions](chrome://extensions) page in your browser.
+Open the project folder in your preferred text editor and make some changes to the extension. When you're ready to try out your changes, re-load the extension from the `chrome://extensions` page.
+
+
+
+## Reference Links
+
+* [Getting started guide](https://developer.chrome.com/extensions/getstarted)
