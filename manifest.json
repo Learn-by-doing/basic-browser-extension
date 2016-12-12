@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Replace Zeman!",
+  "description": "Replace the word \"Zeman\" in every webpage",
+  "version": "1.0",
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["find-and-replace.js"]
+    }
+  ],
+  "permissions": [
+    "activeTab"
+  ]
+}

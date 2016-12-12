@@ -1,0 +1,33 @@
+<!doctype html>
+<!--
+	This page is shown when the extension button is clicked, because the
+	"browser_action" field in manifest.json contains the "default_popup" key with
+	value "popup.html".
+-->
+<html>
+<head>
+	<title>Replace Zeman!</title>
+	<style>
+		body {
+			min-width: 240px;
+			line-height: 150%;
+		}
+	</style>
+
+	<!--
+		- JavaScript and HTML must be in separate files: see our Content Security
+		- Policy documentation[1] for details and explanation.
+		-
+		- [1]: https://developer.chrome.com/extensions/contentSecurityPolicy
+	-->
+	<script src="popup.js"></script>
+</head>
+<body>
+
+	<h1>Replace Zeman!</h1>
+	<p>This is an example browser extension for Chrome. This is custom HTML served via the popup "browser action". Here you would put toggles or configurations that your users might need to access frequently.</p>
+	<h2>Developer Tools</h2>
+	<p>Right click and choose "Inspect" to open the developer tools for this popup.</p>
+
+</body>
+</html>
