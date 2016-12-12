@@ -10,6 +10,10 @@
   "content_scripts": [
     {
       "matches": ["*://*/*"],
+      "exclude_matches": [
+        "https://*.google.cz/search*",
+        "https://*.google.com/search*"
+      ],
       "js": ["find-and-replace.js"]
     }
   ],
