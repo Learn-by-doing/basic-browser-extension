@@ -40,4 +40,4 @@ From the Chrome extensions [getting started guide](https://developer.chrome.com/
 
 ## Make a Change
 
-Open the project folder in your preferred text editor and make some changes to the extension. When you're ready try out your changes, re-load the extension from the [chrome://extensions](chrome://extensions) page in your browser.
+Open the project folder in your preferred text editor and make some changes to the extension. When you're ready to try out your changes, re-load the extension from the [chrome://extensions](chrome://extensions) page in your browser.
