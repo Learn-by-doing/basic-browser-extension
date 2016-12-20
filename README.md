@@ -24,6 +24,7 @@ git clone https://github.com/Learn-by-doing/basic-browser-extension.git
 ## Load the Extension in Chrome
 
 * Open the `chrome://extensions` page in your browser. You should see a list of all the extensions that you have installed.
+* Check the "Developer mode" checkbox in the top right corner.
 * Click the "Load unpacked extension..." button in the top left corner.
 * Select the `basic-browser-extension` directory.
 
